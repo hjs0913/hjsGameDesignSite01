@@ -1,6 +1,5 @@
-<details> 
-<summary> <strong>에스테리아(Esteria)</strong> </summary>
-<div markdown="1">
+# 에스테리아 (Esteria)
+
 ## 1. GDD
 ## 2. 레벨디자인
 ## 3. 세계관
@@ -19,5 +18,4 @@
 ### 5.3. 스킬 설정
 ### 5.4. 몬스터 설정
 ### 5.5. 배경 설정
-</div>
-</details>
+
