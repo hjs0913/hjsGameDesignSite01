@@ -1,6 +1,5 @@
-# 에스테리아(Esteria)
-<details>
-<summary> # 에스테리아(Esteria) </summary>
+<details> 
+<summary> **에스테리아(Esteria)** </summary>
 <div markdown="1">
 ## 1. GDD
 ## 2. 레벨디자인
