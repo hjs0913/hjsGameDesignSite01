@@ -6,7 +6,7 @@
 
 ## 1. GDD
 [GDD](https://hjsgamedesignsite01.netlify.app/pages/esteria_gdd)    
-&nbsp&nbsp[전투흐름예시](https://hjsgamedesignsite01.netlify.app/pages/esteria_%EC%A0%84%ED%88%AC%ED%9D%90%EB%A6%84%EC%98%88%EC%8B%9C.html)
+[전투흐름예시](https://hjsgamedesignsite01.netlify.app/pages/esteria_%EC%A0%84%ED%88%AC%ED%9D%90%EB%A6%84%EC%98%88%EC%8B%9C.html)
 
 ## 2. 세계관/세력/주요인물/갈등구조
 [세계관](https://hjsgamedesignsite01.netlify.app/pages/esteria_%EC%84%B8%EA%B3%84%EA%B4%80.html)    
