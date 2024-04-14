@@ -37,7 +37,7 @@
 [전투 공식(구글 드라이브)](https://docs.google.com/spreadsheets/d/1TwnQ8wVkQP-ImI6B_ytwNXUbDvEHCPAL/edit#gid=1484563284)
 
 ## 4. 데이터 테이블
-[캐릭터&몬스터 테이블](https://docs.google.com/spreadsheets/d/10XrqsiKD_zgA58kOCAyP4bXNQ8sVc673/edit#gid=1537928732)    
-[아이템 테이블](https://docs.google.com/spreadsheets/d/1VB0X4JSC0-kYswbQhymo4eU0AfTWpvpw/edit#gid=1894063800)    
-[스킬 테이블](https://docs.google.com/spreadsheets/d/1K9epROWrOdQwrbrcR5PGAG8ya4uSY4Vh/edit#gid=1243060019)    
-[Affect 테이블](https://docs.google.com/spreadsheets/d/1RAHXEgunchL_y16Yu2oR_zThv8cR0Fwe/edit#gid=1948484788)    
+[캐릭터&몬스터 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/10XrqsiKD_zgA58kOCAyP4bXNQ8sVc673/edit#gid=1537928732)    
+[아이템 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1VB0X4JSC0-kYswbQhymo4eU0AfTWpvpw/edit#gid=1894063800)    
+[스킬 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1K9epROWrOdQwrbrcR5PGAG8ya4uSY4Vh/edit#gid=1243060019)    
+[Affect 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1RAHXEgunchL_y16Yu2oR_zThv8cR0Fwe/edit#gid=1948484788)    
