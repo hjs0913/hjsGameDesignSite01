@@ -20,10 +20,7 @@
 [스킬 설정(구글 드라이브)](https://docs.google.com/spreadsheets/d/1zccGRbDmW2cNXPqh3c1-VYkphN-tu02e/edit#gid=1144295169)    
 
 ---
-
-***
-
-___
+---
 
 # 가디언즈월드 (Guardians World) <개인 작업> 
 
