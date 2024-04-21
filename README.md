@@ -41,3 +41,13 @@
 [아이템 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1VB0X4JSC0-kYswbQhymo4eU0AfTWpvpw/edit#gid=1894063800)    
 [스킬 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1K9epROWrOdQwrbrcR5PGAG8ya4uSY4Vh/edit#gid=1243060019)    
 [Affect 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1RAHXEgunchL_y16Yu2oR_zThv8cR0Fwe/edit#gid=1948484788)    
+
+---
+
+# 노아 (NoA) <노아 팀> 
+
+## 1. 코어 플레이
+[코어 플레이 발표자료](https://docs.google.com/presentation/d/1sDSD-p_oVON3gaW1mBNqZH6SFtVLquhc/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true)    
+
+## 2. 데이터 테이블
+[캐릭터 테이블(구글 드라이브)](https://docs.google.com/spreadsheets/d/1tR7Un1PT-PG8PkNj21DxJP09UcRueHAW/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true)    
