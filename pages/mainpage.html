@@ -104,6 +104,19 @@
       height: 100px;
     }
 
+    .hr1 {
+      border: 2px double gray;
+      margin-top: 13px;
+      margin-bottom: 5px;
+    }
+
+    .hr2 {
+      border: none;
+      border: 1px dashed gray;
+      /* width: 70%; */
+      margin: 5px auto;
+    }
+
   </style>
 </head>
 
@@ -147,26 +160,71 @@
   </header>
 
   <main>
-    <section class="py-5 text-center container">
+    <section class="py-1 text-center container">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-10 col-md-3 mx-auto">
           <h1 class="fw-light">전투 디자인을 맡겨주세요.</h1>
           <p class="lead text-muted">팀 작업물과 개인 작업물들을 모아 두었습니다.</p>
-          <p>
+          <div class="album py-2">
+            <div class="container" style="max-width: 800px;">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col">
+                  <div class="card shadow-sm" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title">팀 작업 목록</h5>
+                      <hr class="hr1">
+                      <div class"container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+                          <a href="/pages/바렌/BTP_main.html" class="btn btn-danger my-3" style="width: 40%; color: white;">BTP</a>
+                          <p class="lead text-muted" style="width: 55%; text-align: left; margin: auto;font-size: 16px;">: 액션 로그라이트 RPG</p>
+                        </div>
+                      </div>
+                      <div class"container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+                        <a href="/pages/노아/NoA_main.html" class="btn btn-danger my-3" style="width: 40%;">NoA</a>
+                        <p class="lead text-muted" style="width: 55%; text-align: left; margin:auto; font-size: 16px;">: 미소녀 수집형 RPG</p>
+                        </div>
+                      </div>
+                      <div class"container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+                          <a href="/pages/에스테리아/Esteria_Team996.html" class="btn btn-danger my-3" style="width: 40%;">에스테리아</a>
+                        <p class="lead text-muted" style="width: 55%; text-align: left; margin: auto;font-size: 16px;">: 오픈월드 RPG</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title">개인 작업 목록</h5>
+                      <hr class="hr1">
+                      <div class"container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+                          <a href="/pages/가디언즈월드/GW_main.html" class="btn btn-primary my-3" style="width: 40%;">가디언즈 월드</a>
+                          <p class="lead text-muted" style="width: 55%; text-align: left; margin: auto;font-size: 16px;">: 캐릭터 수집형 RPG</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <p>
             <a href="/pages/에스테리아/Esteria_Team996.html" class="btn btn-warning my-2">에스테리아(더블나인식스 팀)</a>
             <a href="/pages/가디언즈월드/GW_main.html" class="btn btn-info my-2">가디언즈 월드</a>
             <a href="/pages/노아/NoA_main.html" class="btn btn-danger my-2">NoA(노아 팀)</a>
             <a href="/pages/sub04.html" class="btn btn-primary my-2">Project T</a>
             <a href="https://atentsgame.com/" class="btn btn-success my-2">나의 시작</a>
-          </p>
+          </p> -->
         </div>
       </div>
     </section>
 
-    <div class="album py-5 bg-secondary">
+    
+    <!-- <div class="album py-5 bg-secondary">
       <div class="container">
-
-          <!-- 캐로셀 테스트 -->
           <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -218,11 +276,11 @@
             </button>
           </div>
       </div>
-    </div>
+    </div> -->
 
   </main>
 
-  <footer class="text-muted py-5">
+  <footer class="text-muted py-2">
     <div class="container">
       <p class="float-end mb-1">
         <a href="/index.html">Back to HOME</a>
