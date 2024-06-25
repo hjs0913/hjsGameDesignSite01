@@ -85,6 +85,35 @@
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
     }
+
+    .game_info_category {
+      width: 25%;
+      max-height: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .game_info_text {
+      width: 75%;
+      height: 20px;
+      font-size: 14px;
+      text-align: left;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -126,13 +155,68 @@
   </header>
 
   <main>
-    <section class="py-5 text-center container">
+    <section class="py-1 text-center container">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-10 col-md-3 mx-auto">
           <h1 class="fw-light">에스테리아(Esteria)</h1>
-          <p class="lead text-muted"><strong>맡은 업무</strong><br><strong>GDD</strong>(GDD, 세계관, 세력, 주요 인물, 갈등 구조, 전투 흐름 예시)<br><strong>설정</strong>(캐릭터, 아이템, 스킬) </p>
+          <p class="lead text-muted">어둠에 잠식된 이세계 '에스테리아'에 소환된 주인공.</br>에스테리아를 정화하고 지구로 귀환하기 위한 여정을 떠난다.</p>
+          <div class="album py-2">
+            <div class="container" style="max-width: 800px;">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col" >
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;" >
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>게임 소개</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 120px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="game_info_category">장 르</h2>
+                          <p class="game_info_text">: 오픈월드 RPG (3D 백뷰)</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">컨 셉</h2>
+                          <p class="game_info_text">: 카툰풍 디자인, 어두운 분위기</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">특 징</h2>
+                          <p class="game_info_text">: 몬스터 정화 시 더 많은 보상 획득</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>맡은 업무</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 120px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="game_info_category">G D D</h2>
+                          <p class="game_info_text">: 문서 취합 후 GDD작성</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">세 계 관</h2>
+                          <p class="game_info_text">: 세력, 주요 인물, 갈등 구조</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">설 정</h2>
+                          <p class="game_info_text">: 캐릭터, 아이템, 스킬</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">기 타</h2>
+                          <p class="game_info_text">: 전투 흐름 예시 문서 작성</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <p>
-            <a href="https://www.notion.so/hjs0913/242e90d9cfbe436d9234991824b3ae6f" class="btn btn-success my-2">엑셀 문서 모음</a>
+            <a href="https://www.notion.so/hjs0913/242e90d9cfbe436d9234991824b3ae6f" class="btn btn-success my-2">엑셀 문서 모음(노션)</a>
           </p>
         </div>
       </div>
@@ -146,24 +230,21 @@
               <img src="/images/에스테리아.png" class="card-img-top" alt="우주선1">
               <div class="card-body">
                 <h5 class="card-title">GDD</h5>
-                <p class="card-text">에스테리아의 GDD문서 모음</p>
-                <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark">GDD</a>
-                <a href="/pages/에스테리아/esteria_세계관.html" class="btn btn-dark">세계관</a>
-                <a href="/pages/에스테리아/esteria_세력.html" class="btn btn-dark">세력</a>
-                <a href="/pages/에스테리아/esteria_주요 인물.html" class="btn btn-dark">주요 인물</a>
-                <a href="/pages/에스테리아/esteria_갈등구조.html" class="btn btn-dark">갈등구조</a>
-                <a href="/pages/에스테리아/esteria_전투흐름예시.html" class="btn btn-dark">전투 흐름 예시</a>
+                <p class="card-text">에스테리아의 GDD</p>
+                <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark" style="margin: 5px auto;">GDD</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm" width="100%">
-              <img src="/images/에스테리아1.png" class="card-img-top" alt="우주선2">
+              <img src="/images/에스테리아.png" class="card-img-top" alt="우주선1">
               <div class="card-body">
-                <h5 class="card-title">스토리</h5>
-                <p class="card-text">에스테리아의 스토리 문서 모음</p>
-                <a href="/pages/에스테리아/esteria_스토리.html" class="btn btn-dark">스토리</a>
-                <a href="/pages/에스테리아/esteria_시나리오&스토리보드.html" class="btn btn-dark">시나리오&스토리보드</a>
+                <h5 class="card-title">세계관</h5>
+                <p class="card-text">에스테리아의 세계관 문서 모음</p>
+                <a href="/pages/에스테리아/esteria_세력.html" class="btn btn-dark" style="margin: 5px auto;">세력</a>
+                <a href="/pages/에스테리아/esteria_주요 인물.html" class="btn btn-dark" style="margin: 5px auto;">주요 인물</a>
+                <a href="/pages/에스테리아/esteria_갈등구조.html" class="btn btn-dark" style="margin: 5px auto;">갈등구조</a>
+                <a href="/pages/에스테리아/esteria_전투흐름예시.html" class="btn btn-dark" style="margin: 5px auto;">전투 흐름 예시</a>
               </div>
             </div>
           </div>
@@ -173,66 +254,12 @@
               <div class="card-body">
                 <h5 class="card-title">설정</h5>
                 <p class="card-text">에스테리아의 설정 문서 모음</p>
-                <a href="/pages/에스테리아/esteria_캐릭터설정.html" class="btn btn-dark">캐릭터 설정</a>
-                <a href="/pages/에스테리아/esteria_몬스터설정.html" class="btn btn-dark">몬스터 설정</a>
-                <a href="/pages/에스테리아/esteria_배경설정.html" class="btn btn-dark">배경 설정</a>
-                <a href="/pages/에스테리아/esteria_아이템설정.html" class="btn btn-dark">아이템 설정</a>
-                <a href="https://docs.google.com/spreadsheets/d/1zccGRbDmW2cNXPqh3c1-VYkphN-tu02e/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark">스킬 설정(구글드라이브)</a>
+                <a href="/pages/에스테리아/esteria_캐릭터설정.html" class="btn btn-dark" style="margin: 5px auto;">캐릭터 설정</a>
+                <a href="/pages/에스테리아/esteria_아이템설정.html" class="btn btn-dark" style="margin: 5px auto;">아이템 설정</a>
+                <a href="https://docs.google.com/spreadsheets/d/1zccGRbDmW2cNXPqh3c1-VYkphN-tu02e/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark" style="margin: 5px auto;">스킬 설정(구글드라이브)</a>
               </div>
             </div>
           </div>
-          
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/레벨디자인.png" class="card-img-top" alt="우주선5">
-              <div class="card-body">
-                <h5 class="card-title">레벨디자인</h5>
-                <p class="card-text">에스테리아의 레벨디자인 문서 모음</p>
-                <a href="/pages/에스테리아/esteria_레벨디자인.html" class="btn btn-dark">레벨 디자인</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/ui&ux.png" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">UI/UX</h5>
-                <p class="card-text">에스테리아의 UI/UX 문서 모음</p>
-                <a href="/pages/에스테리아/esteria_UI&UX.html" class="btn btn-dark">UI&UX</a>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서7</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서8</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서9</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div> -->
-
         </div>
       </div>
     </div>
