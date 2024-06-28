@@ -85,6 +85,64 @@
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
     }
+
+    .game_info_category {
+      width: 25%;
+      max-height: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .game_info_text {
+      width: 75%;
+      height: 20px;
+      font-size: 14px;
+      text-align: left;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .work_list_category {
+      width: 33%;
+      max-height: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .work_list_text {
+      width: 67%;
+      height: 20px;
+      font-size: 14px;
+      text-align: left;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -125,15 +183,73 @@
   </header>
 
   <main>
-    <section class="py-5 text-center container">
+    <section class="py-1 text-center container">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light"><strong>맡은 역할</strong></h1>
-          <p class="lead text-muted">1. 코어 플레이 <br>2. 데이터 테이블(캐릭터) 작성</p>
-          <!-- <p>
-            <a href="https://www.notion.so/hjs0913/caae2753a930456bbba0c59e7ea901c4?pvs=4" class="btn btn-success my-2">엑셀 문서 모음</a>
-            <a href="https://www.youtube.com/watch?v=d69GbPPFHk8" class="btn btn-success my-2">UI 시연 영상 보기</a>
-          </p> -->
+        <div class="col-lg-10 col-md-3 mx-auto">
+          <h1 class="fw-light">노아(NoA)</h1>
+          <p class="lead text-muted">인류는 차원의 문을 열어 새로운 물질을 발견하고 에너지원으로 사용하는 데 성공한다.
+            </br> 하지만, 다른 차원을 넘본 대가는 참혹했다. 악마들이 차원을 넘어와 파괴와 학살을 이어갔고 인류는 멸망 위기에 처한다.
+            </br> 마지막 희망이 된 '퍼스트'(플레이어)는 전투 병기 'NoA'들과 함께 세상을 구해야하는 운명에 처한다.
+          </p>
+          <div class="album py-2">
+            <div class="container" style="max-width: 800px;">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col" >
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;" >
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>게임 소개</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 150px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="game_info_category">장 르</h2>
+                          <p class="game_info_text">: 핵앤슬래시 RPG (3D 쿼터뷰)</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">컨 셉</h2>
+                          <p class="game_info_text">: 미소녀 캐릭터, 다양한 컨셉의 차원</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">특 징</h2>
+                          <p class="game_info_text">: 태그 시스템을 활용한 다채로운 전투</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>맡은 업무</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 150px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="work_list_category">시 스 템</h2>
+                          <p class="work_list_text">: 전투 시스템(태그 시스템)</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="work_list_category">Data Table</h2>
+                          <p class="work_list_text">: 캐릭터 데이터 테이블 작성</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="work_list_category">UI 디 자 인</h2>
+                          <p class="work_list_text">: 씬플로우, HUD Wireframe 등</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="work_list_category">레 벨 디 자 인</h2>
+                          <p class="work_list_text">: 챕터 2-1</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="work_list_category">기 타</h2>
+                          <p class="work_list_text">: 테이블 네이밍&넘버링 규칙 등</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -143,23 +259,23 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm" width="100%">
-              <img src="/images/가디언즈월드/가디언즈월드_마법쓰는모습0.jpeg" class="card-img-top" alt="세계관">
+              <img src="/images/가디언즈월드/가디언즈월드_마법쓰는모습0.jpeg" class="card-img-top" alt="GDD">
               <div class="card-body">
                 <h5 class="card-title">GDD</h5>
                 <p class="card-text">NoA의 GDD</p>
-                <a href="/pages/가디언즈월드/GW_GDD.html" class="btn btn-dark">GDD</a>
+                <a href="/pages/노아/NoA_GDD.html" class="btn btn-dark" style="margin: 5px auto;">GDD</a>
                 
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm" width="100%">
-              <img src="/images/가디언즈월드/가디언즈월드_마법과결합된건물모습3.jpeg" class="card-img-top" alt="스토리">
+              <img src="/images/가디언즈월드/엑셀아이콘.png" class="card-img-top"  alt="테이블">
               <div class="card-body">
-                <h5 class="card-title">스토리&시나리오</h5>
-                <p class="card-text">NoA의 스토리와 시나리오</p>
-                <a href="https://docs.google.com/document/d/1i_jkA3nJfXZM72t8OJxzWXflicMMuhnXVwwCe_ZeM9M/edit?usp=drive_link" class="btn btn-dark">스토리</a>                
-                <a href="https://docs.google.com/document/d/14vOg9UBFJhNOhwAEYYygwOCwAvtppoyJraELmgo0Mng/edit?usp=drive_link" class="btn btn-dark">시나리오</a>
+                <h5 class="card-title">전투 시스템</h5>
+                <p class="card-text">NoA의 전투 시스템(태그 시스템) 문서</p>
+                <a href="/pages/노아/NoA_태그시스템.html" class="btn btn-dark" style="margin: 5px auto;">태그 시스템</a>
+                <a href="https://docs.google.com/presentation/d/1sDSD-p_oVON3gaW1mBNqZH6SFtVLquhc/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark" style="margin: 5px auto;">발표 PPT</a>
               </div>
             </div>
           </div>
@@ -169,29 +285,7 @@
               <div class="card-body">
                 <h5 class="card-title">데이터 테이블</h5>
                 <p class="card-text">NoA의 데이터 테이블</p>
-                <a href="https://docs.google.com/spreadsheets/d/1tR7Un1PT-PG8PkNj21DxJP09UcRueHAW/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark">캐릭터</a>
-                <a href="https://docs.google.com/spreadsheets/d/1SigLt4o95yhtI3-wKqInQCQ9K3NK3h8HxA4HTQTtkas/edit?usp=drive_link" class="btn btn-dark">스킬</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/가디언즈월드/엑셀아이콘.png" class="card-img-top"  alt="테이블">
-              <div class="card-body">
-                <h5 class="card-title">발표 자료</h5>
-                <p class="card-text">NoA의 발표 자료 모음</p>
-                <a href="https://docs.google.com/presentation/d/1sDSD-p_oVON3gaW1mBNqZH6SFtVLquhc/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark">코어 플레이</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship05.jpg" class="card-img-top" alt="우주선5">
-              <div class="card-body">
-                <h5 class="card-title">기타 문서</h5>
-                <p class="card-text">NoA의 기타 문서 모음</p>
-                <a href="/pages/노아/NoA_소환&합성확률.html" class="btn btn-dark">캐릭터 소환 및 합성 확률</a>
-                <a href="/pages/노아/NoA_테이블_네이밍&넘버링규칙.html" class="btn btn-dark">데이터 테이블 네이밍&넘버링 규칙</a>
+                <a href="https://docs.google.com/spreadsheets/d/1tR7Un1PT-PG8PkNj21DxJP09UcRueHAW/edit?usp=sharing&ouid=107448416396089735535&rtpof=true&sd=true" class="btn btn-dark" style="margin: 5px auto;">캐릭터</a>
               </div>
             </div>
           </div>
@@ -201,53 +295,37 @@
               <div class="card-body">
                 <h5 class="card-title">UX/UI</h5>
                 <p class="card-text">NoA의 UX/UI</p>
-                <a href="/contents/노아/NoA_SceneFlow.svg" class="btn btn-dark">씬플로우</a>
-                <a href="/contents/노아/NoA_HUD_Wireframe.svg" class="btn btn-dark">HUD 와이어프레임</a>
-                <a href="/pages/노아/NoA_컨트롤러&키맵.html" class="btn btn-dark">컨트롤러&키맵</a>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">경매장시스템</h5>
-                <p class="card-text">게임 내 상품과 재화를 교환하는 공공 거래 시스템을 주관하는 곳의 디자인</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서7</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
+                <a href="/contents/노아/NoA_SceneFlow.svg" class="btn btn-dark" style="margin: 5px auto;">씬플로우(svg)</a>
+                <a href="/contents/노아/NoA_HUD_Wireframe.svg" class="btn btn-dark" style="margin: 5px auto;">HUD 와이어프레임(svg)</a>
+                <a href="/pages/노아/NoA_컨트롤러&키맵.html" class="btn btn-dark" style="margin: 5px auto;">컨트롤러&키맵</a>
+                <a href="https://www.notion.so/hjs0913/NoA_UI_WebGL-85e978713410407dbe8dec3bff875521?pvs=4" class="btn btn-dark" style="margin: 5px auto;">WebGL빌드(노션)</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
+              <img src="/images/가디언즈월드/가디언즈월드_마법과결합된건물모습3.jpeg" class="card-img-top" alt="스토리">
               <div class="card-body">
-                <h5 class="card-title">기획서8</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
+                <h5 class="card-title">레벨 디자인</h5>
+                <p class="card-text">NoA(챕터2-1)의 레벨 디자인</p>
+                <a href="/pages/노아/NoA_레벨컨셉.html" class="btn btn-dark" style="margin: 5px auto;">레벨 컨셉</a>
+                <a href="/pages/노아/NoA_레벨디자인.html" class="btn btn-dark" style="margin: 5px auto;">레벨 디자인</a>
+                <a href="https://youtu.be/rAHjUbT9Gks" class="btn btn-dark" style="margin: 5px auto;">블록아웃 설명(유튜브)</a>
+                <a href="https://noablockout2-1.netlify.app/" class="btn btn-dark" style="margin: 5px auto;">블록아웃(Unity WebGL)</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
+              <img src="/images/spaceship05.jpg" class="card-img-top" alt="우주선5">
               <div class="card-body">
-                <h5 class="card-title">기획서9</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
+                <h5 class="card-title">기타 문서</h5>
+                <p class="card-text">NoA의 기타 문서 모음</p>
+                <a href="/pages/노아/NoA_소환&합성확률.html" class="btn btn-dark" style="margin: 5px auto;">캐릭터 소환 및 합성 확률</a>
+                <a href="/pages/노아/NoA_테이블_네이밍&넘버링규칙.html" class="btn btn-dark" style="margin: 5px auto;">데이터 테이블 네이밍&넘버링 규칙</a>
               </div>
             </div>
-          </div> -->
-
+          </div>
         </div>
       </div>
     </div>
