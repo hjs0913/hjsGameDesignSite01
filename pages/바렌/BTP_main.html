@@ -85,6 +85,64 @@
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
     }
+
+    .game_info_category {
+      width: 20%;
+      max-height: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .game_info_text {
+      width: 80%;
+      height: 20px;
+      font-size: 14px;
+      text-align: left;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .work_list_category {
+      width: 20%;
+      max-height: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .work_list_text {
+      width: 80%;
+      height: 20px;
+      font-size: 14px;
+      text-align: left;
+      margin-top: auto;
+      margin-bottom: auto;
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -124,14 +182,61 @@
   </header>
 
   <main>
-    <section class="py-5 text-center container">
+    <section class="py-1 text-center container">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">바렌 더 프라핏(Baren: The Prophet) [홈페이지 작성중....]</h1>
-          <p class="lead text-muted"><strong>맡은 업무</strong><br><strong>1. 엔진 빌드</strong>(Unity/2022.3.27f1)<br><strong>2. 전투 시스템</strong></p>
-          <p>
-            <a href="https://www.notion.so/hjs0913/242e90d9cfbe436d9234991824b3ae6f" class="btn btn-success my-2">엑셀 문서 모음</a>
+        <div class="col-lg-12 col-md-3 mx-auto">
+          <h1 class="fw-light">Baren:The Prophet(BTP)</h1>
+          <p class="lead text-muted">최초로 마법과 기술을 발견하고 인류에게 전파하여 신으로 숭배받게 된 자, '바렌'.
+            </br>이에 분노한 빛의 신 '발루아'는 감히 신에게 도전했다는 이유로 바렌과 인류에게 징벌을 내리게 된다.
+            </br>인류를 지키기 위해 스스로를 봉인하고, 자신을 에너지원으로 삼아 방어막를 형성한 바렌은 수백년이 지난 후 깨어나게 된다.
           </p>
+          <div class="album py-2">
+            <div class="container" style="width: 900px;">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col" >
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;" >
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>게임 소개</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 150px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="game_info_category">장 르</h2>
+                          <p class="game_info_text">: 액션 로그라이트 RPG (3D 백뷰)</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">컨 셉</h2>
+                          <p class="game_info_text">: 중세 다크 판타지</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="game_info_category">특 징</h2>
+                          <p class="game_info_text">: 선택한 무기에 따라 달라지는 클래스/스킬트리</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm" style="width: 100%; height: 100%;">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>맡은 업무</strong></h5>
+                      <hr class="hr1">
+                      <div class"container" style="height: 150px;">
+                        <div class="row row-cols-auto row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;" >
+                          <h2 class="work_list_category">개 발</h2>
+                          <p class="work_list_text">: 엔진 빌드(Unity/2022.3.27f1)</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 g-2" style="max-height: 40px; margin: 10px auto;">
+                          <h2 class="work_list_category">시 스 템</h2>
+                          <p class="work_list_text">: 전투 시스템</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -153,8 +258,10 @@
             <div class="card shadow-sm" width="100%">
               <img src="/images/에스테리아1.png" class="card-img-top" alt="우주선2">
               <div class="card-body">
-                <h5 class="card-title">엔진 빌드</h5>
-                <p class="card-text">유니티 엔진 빌드 버전 링크와 유튜브 영상입니다.</p>
+                <h5 class="card-title">엔진 빌드(Unity)</h5>
+                <p class="card-text">BTP의 시연 영상과 프로토타입 개발 내역서입니다.</p>
+                <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark">시연 영상(유튜브)</a>
+                <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark">프로토타입 개발 내역서</a>
               </div>
             </div>
           </div>
@@ -162,9 +269,8 @@
             <div class="card shadow-sm" width="100%">
               <img src="/images/에스테리아1.png" class="card-img-top" alt="우주선2">
               <div class="card-body">
-                <h5 class="card-title">문서</h5>
-                <p class="card-text">BTP의 문서 중 제가 담당한 파트의 문서 모음입니다.</p>
-                <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark">개발 프로토타입 내역서</a>
+                <h5 class="card-title">시스템</h5>
+                <p class="card-text">BTP의 시스템 문서입니다.</p>
                 <a href="/pages/에스테리아/esteria_GDD.html" class="btn btn-dark">전투 시스템</a>
               </div>
             </div>
@@ -179,9 +285,7 @@
     <div class="container">
       <p class="float-end mb-1">
         <a href="/pages/mainpage.html">Back to MainPage</a>
-      </p>
-      <!-- <p class="mb-1">자신이 공부하는 분야와 기획포지션에 대해서 적으세요.</p>
-      <p class="mb-0">자신이 공부한 것을 입증할 수 있는 학교, 학원 등을 링크하세요. <a href="https://atentsgame.com">아텐츠게임아카데미</a> </p> -->
+      </p>ㄴ
     </div>
   </footer>
 
